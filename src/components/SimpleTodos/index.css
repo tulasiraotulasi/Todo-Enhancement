@@ -1,0 +1,68 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+  height: 100vh;
+}
+.innerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #ffffff;
+  width: 70vw;
+  height: 80vh;
+  border-radius: 10px;
+  overflow: auto;
+}
+.heading {
+  color: #ff8542;
+  margin: 2%;
+  align-self: center;
+}
+input[type='text'] {
+  cursor: pointer;
+  outline: none;
+  align-self: center;
+  width: 25vw;
+  height: 4vh;
+  margin-right: 1%;
+  border-radius: 10px;
+  border-color: black;
+}
+.ullist {
+  list-style-type: none;
+  /* border: 1px solid black; */
+  width: 70vw;
+  padding-left: 3%;
+  padding-right: 3%;
+  height: 55vh;
+}
+
+.btnSuccess {
+  border-color: green;
+  color: green;
+  width: 5vw;
+  height: 4vh;
+}
+.addTodo {
+  padding-left: 3%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70vw;
+  margin-bottom: 2%;
+}
+
+@media (max-width: 1000px) {
+  .btnSuccess {
+    width: 10vw;
+  }
+}

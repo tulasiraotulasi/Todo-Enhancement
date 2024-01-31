@@ -1,0 +1,63 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.mainDivs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: x-large;
+  box-sizing: border-box;
+  width: 65vw;
+}
+
+.todoPara {
+  width: 50vw;
+  font-size: medium;
+}
+
+.btn {
+  font-size: medium;
+  width: 5vw;
+  cursor: pointer;
+  outline: none;
+  border: #ff0b37 1px solid;
+  color: #ff0b37;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.btnDiv {
+  display: flex;
+  width: 12vw;
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .mainDivs {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .btnDiv {
+    margin-top: 5px;
+    width: 25vw;
+  }
+  .btn {
+    width: 10vw;
+  }
+}
+.hrtag {
+  width: 65vw;
+  font-size: small;
+  color: aliceblue;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.ParaStrike {
+  text-decoration: line-through;
+}
